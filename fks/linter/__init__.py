@@ -21,7 +21,7 @@ class Event:
         self.name = e
         self.context = context
         self.args = args
-        print(e, args)
+#        print(e, args)
 
 class Linter:
     # l for line (there should be also c function)
