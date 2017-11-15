@@ -20,5 +20,6 @@ if __name__ == '__main__':
         ((rc('dots'), rc('[^{]'), None), "\dots{}") \
       ])
 
-    p.parse(sys.stdin)
+    inf = open(sys.argv[1])
+    p.parse(inf)
 
